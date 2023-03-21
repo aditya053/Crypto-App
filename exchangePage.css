@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #fdeaf1;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.icon {
+  float: left;
+  width: 40px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+nav {
+  background-color: white;
+  padding: 9px 1px 9px 1px;
+  border-radius: 16px;
+  margin-top: 12px;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: large;
+  padding: 10px;
+  color: #565a69;
+}
+
+nav a:hover {
+  color: black;
+}
+
+nav a:nth-child(2) {
+  color: black;
+  background-color: rgba(206, 208, 217, 0.3);
+  padding: 8px 10px 8px 10px;
+  border-radius: 15px;
+}
+
+form {
+  background-color: white;
+  border-radius: 15px;
+  padding: 10px;
+  margin-top: 50px;
+  box-shadow: rgb(0 0 0 / 8%) 0px 6px 10px;
+}
+
+form p {
+  font-size: large;
+}
+
+form input {
+  padding: 20px;
+  background-color: #f7f8fa;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+}
+
+.select_box {
+  display: inline;
+  margin-right: -215px;
+  padding: 20px 10px 20px 10px;
+  background-color: #f7f8fa;
+  border-radius: 15px;
+  box-shadow: rgb(0 0 0 / 8%) 0px 6px 10px;
+}
+
+.select_box img {
+  width: 7%;
+  margin-bottom: -10px;
+}
+
+.select_box select {
+  background-color: #f7f8fa;
+  padding: 10px 0px 10px 0px;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+}
+
+#arrow {
+  width: 30px;
+  margin: 10px 0px 10px 150px;
+}
+
+#btn {
+  width: 100%;
+  margin-top: 20px;
+  color: #d50066;
+  background-color: #fdeaf1;
+}
+
+#btn:hover {
+  background-color: #fed3e3;
+}

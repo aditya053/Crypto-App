@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exchange</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="../favIcon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favIcon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favIcon/favicon-16x16.png">
+    <link rel="manifest" href="../favIcon/site.webmanifest">
+
+    <link rel="stylesheet" href="exchangePage.css" />
+  </head>
+  <body>
+    <a href="index.html">
+      <img href="index.html" class="icon" src="../images/icon.png" alt="" />
+    </a>
+
+    <div class="container">
+      <nav>
+        <a href="index.html">Market</a>
+        <a href="">Exchange</a>
+      </nav>
+
+      <form action="">
+        <p>   Swap</p>
+
+        <div>
+            <input id="coin1_box" type="number" value="" min="0" placeholder="0.0">
+            <div class="select_box">
+                <img src="https://assets.coingecko.com/coins/images/1/large/bitcoin.png?1547033579" alt="" srcset="" />
+                <select name="coins_list" class="dropdown"></select>
+            </div>
+        </div>
+
+        <img id="arrow" src="images/down-arrow.png" alt="down_arrow" />
+
+        <div>
+            <input id="coin2_box" type="number" value="" min="0" placeholder="0.0">
+            <div class="select_box">
+                <img src="https://assets.coingecko.com/coins/images/325/large/Tether-logo.png?1598003707" alt="" srcset="" />
+                <select name="coins_list" class="dropdown"></select>
+            </div>
+        </div>
+
+        <input type="button" value="Convert" id="btn" />
+      </form>
+    </div>
+
+    <script src="coin_list.js"></script>
+    <script src="id_list.js"></script>
+    <script src="exchangePage.js"></script>
+  </body>
+</html>

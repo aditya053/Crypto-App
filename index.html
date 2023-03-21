@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Market</title>
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="favIcon/apple-touch-icon.png"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="favIcon/favicon-32x32.png"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="favIcon/favicon-16x16.png"/>
+    <link rel="manifest" href="favIcon/site.webmanifest" />
+
+    <link rel="stylesheet" href="index.css">
+  </head>
+
+  <body>
+    <a href="index.html">
+      <img href="index.html" class="icon" src="images/icon.png" alt=""/>
+    </a>
+    
+    <div class="container">
+       <nav >
+        <a href="">Market</a>
+        <a href="exchangePage.html" >Exchange</a>
+      </nav>
+
+      <input type="text" id="searchBox" onkeyup="search()" placeholder="Search...">
+
+      <table id="myTable">
+          <tr id="">
+            <th>#</th>
+            <th >Name</th>
+            <th >Price</th>
+            <th>24h%</th>
+            <th >Market Cap</th>
+            <th >Volume(24h)</th>
+          </tr>
+        </thead>
+      </table>
+
+      <script src="coin_list.js"></script>
+      <script src="id_list.js"></script>
+      <script src="index.js"></script>
+    </div>
+  </body>
+</html>
+  
